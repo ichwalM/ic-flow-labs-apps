@@ -1,0 +1,7 @@
+{
+  "name": "@flowlab/flow-schema",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": { "@flowlab/domain": "workspace:*", "zod": "^4.3.0" }
+}

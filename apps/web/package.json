@@ -1,0 +1,27 @@
+{
+  "name": "@flowlab/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@flowlab/domain": "workspace:*",
+    "@flowlab/flow-schema": "workspace:*",
+    "@flowlab/interpreter": "workspace:*",
+    "@xyflow/react": "^12.12.0",
+    "lucide-react": "^0.577.0",
+    "next": "16.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "^4.2.0"
+  }
+}

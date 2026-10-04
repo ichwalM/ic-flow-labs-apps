@@ -1,0 +1,7 @@
+{
+  "name": "@flowlab/expression-parser",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": { "@flowlab/domain": "workspace:*" }
+}
